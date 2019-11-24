@@ -10,7 +10,7 @@ public class TestConvertArabianNumberToRoman {
     public void Conver_0_To_EmptyString(){
         ArabicToRomanNumberConverter arabicToRomanNumberConverter = new ArabicToRomanNumberConverter();
         String romanNumber = arabicToRomanNumberConverter.Convert(0);
-        assertEquals("",romanNumber)
+        assertEquals("",romanNumber);
     }
 
 }
