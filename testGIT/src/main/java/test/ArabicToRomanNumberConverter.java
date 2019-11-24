@@ -4,9 +4,20 @@ public class ArabicToRomanNumberConverter {
 
 
     public String Convert(int arabicNumber) {
-        if(arabicNumber == 0){
-            return "";
+        boolean noNumber = arabicNumber == 0;
+        if(noNumber) {
+            return getDefaultRomanNumber();
         }
-        else return "I";
+        if(arabicNumber == 1){
+            return "I";
+        }
+        else{
+            return "II";
+        }
+
+    }
+
+    private String getDefaultRomanNumber() {
+        return "";
     }
 }
