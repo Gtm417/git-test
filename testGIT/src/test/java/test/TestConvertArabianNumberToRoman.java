@@ -51,9 +51,5 @@ public class TestConvertArabianNumberToRoman {
         String romanNumber = convertToRoman(8);
         assertEquals("VIII",romanNumber);
     }
-    @Test
-    public void Conver_4_To_IV(){
-        String romanNumber = convertToRoman(4);
-        assertEquals("IV",romanNumber);
-    }
+
 }
