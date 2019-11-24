@@ -3,7 +3,10 @@ package test;
 public class ArabicToRomanNumberConverter {
 
 
-    public String Convert(int num) {
-        return "";
+    public String Convert(int arabicNumber) {
+        if(arabicNumber == 0){
+            return "";
+        }
+        else return "I";
     }
 }

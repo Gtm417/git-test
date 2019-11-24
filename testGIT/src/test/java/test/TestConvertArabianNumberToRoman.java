@@ -13,4 +13,11 @@ public class TestConvertArabianNumberToRoman {
         assertEquals("",romanNumber);
     }
 
+    @Test
+    public void Conver_1_To_I(){
+        ArabicToRomanNumberConverter arabicToRomanNumberConverter = new ArabicToRomanNumberConverter();
+        String romanNumber = arabicToRomanNumberConverter.Convert(1);
+        assertEquals("I",romanNumber);
+    }
+
 }
