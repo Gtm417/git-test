@@ -8,6 +8,7 @@ public class ArabicToRomanNumberConverter {
 
 
     public String Convert(int arabicNumber) {
+        int i  = 0;
         if(arabicNumber == 0){
             return "";
         }
