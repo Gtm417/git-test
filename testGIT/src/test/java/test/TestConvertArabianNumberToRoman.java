@@ -33,7 +33,7 @@ public class TestConvertArabianNumberToRoman {
     @Test
     public void Conver_3_To_II(){
         String romanNumber = convertToRoman(3);
-        //assertEquals("III",romanNumber);
+        assertEquals("III",romanNumber);
     }
 
 }

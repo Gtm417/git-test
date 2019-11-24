@@ -8,13 +8,12 @@ public class ArabicToRomanNumberConverter {
         if(noNumber) {
             return getDefaultRomanNumber();
         }
-        if(arabicNumber == 1){
-            return "I";
+        String romanNumber = "";
+        while( arabicNumber >= 1 ) {
+            romanNumber += "I";
+            arabicNumber -- ;
         }
-        else{
-            return "II";
-        }
-
+        return romanNumber;
     }
 
     private String getDefaultRomanNumber() {
