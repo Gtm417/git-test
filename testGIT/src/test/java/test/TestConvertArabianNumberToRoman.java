@@ -36,4 +36,24 @@ public class TestConvertArabianNumberToRoman {
         assertEquals("III",romanNumber);
     }
 
+    @Test
+    public void Conver_5_To_V(){
+        String romanNumber = convertToRoman(5);
+        assertEquals("V",romanNumber);
+    }
+    @Test
+    public void Conver_6_To_VI(){
+        String romanNumber = convertToRoman(6);
+        assertEquals("VI",romanNumber);
+    }
+    @Test
+    public void Conver_8_To_VIII(){
+        String romanNumber = convertToRoman(8);
+        assertEquals("VIII",romanNumber);
+    }
+    @Test
+    public void Conver_4_To_IV(){
+        String romanNumber = convertToRoman(4);
+        assertEquals("IV",romanNumber);
+    }
 }
