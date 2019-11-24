@@ -2,8 +2,14 @@ package test;
 
 public class ArabicToRomanNumberConverter {
 
+    public void add(){
+        return;
+    }
+
 
     public String Convert(int arabicNumber) {
+        int i  = 0;
+
         boolean noNumber = arabicNumber == 0;
         if(noNumber) {
             return getDefaultRomanNumber();
